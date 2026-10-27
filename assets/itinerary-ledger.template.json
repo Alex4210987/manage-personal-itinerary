@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "config": {
+    "primary_timezone": null,
+    "source_scope": [],
+    "lookback_start": null,
+    "future_end": null,
+    "private_calendar": null,
+    "permissions": {
+      "read_sources": [],
+      "browser_sources": [],
+      "calendar_actions": [],
+      "scheduled_checks": false,
+      "device_test": false
+    },
+    "polling": [],
+    "reminder_policy": {
+      "stages": [],
+      "day_of_local_time": null,
+      "channels": []
+    },
+    "history_recurrence_inference_opt_in": false,
+    "stop_condition": null
+  },
+  "sources": [
+    {
+      "source_key": null,
+      "access_method": null,
+      "identity_label": null,
+      "account_login_verified_at": null,
+      "data_read_verified_at": null,
+      "requested_window": null,
+      "covered_window": null,
+      "pagination_coverage": null,
+      "attempted_at": null,
+      "last_success_at": null,
+      "status": "not_checked",
+      "failure_reason": null,
+      "resume_cursor": null
+    }
+  ],
+  "items": [
+    {
+      "item_key": null,
+      "occurrence_key": null,
+      "title": null,
+      "kind": null,
+      "evidence": [
+        {
+          "source_key": null,
+          "record_id": null,
+          "safe_url": null,
+          "minimal_excerpt": null,
+          "source_updated_at": null,
+          "observed_at": null,
+          "original_time_expression": null,
+          "timezone_evidence": null
+        }
+      ],
+      "timing": {
+        "precision": null,
+        "timezone": null,
+        "start": null,
+        "end": null,
+        "deadline": null,
+        "date_only": null,
+        "basis": "needs_confirmation",
+        "derivation": {
+          "anchor_item_key": null,
+          "anchor_evidence": null,
+          "expression": null
+        },
+        "provisional_duration_minutes": null,
+        "deadline_revision": null
+      },
+      "recurrence": {
+        "basis": null,
+        "rule": null,
+        "count": null,
+        "until": null,
+        "exceptions": [],
+        "user_confirmed_at": null
+      },
+      "disposition": {
+        "state": "needs_confirmation",
+        "scope": null,
+        "decided_by": null,
+        "decided_at": null,
+        "reason": null,
+        "reopened_at": null
+      },
+      "calendar": {
+        "event_id": null,
+        "calendar_id": null,
+        "write_status": "not_attempted",
+        "write_attempted_at": null,
+        "verified_at": null,
+        "verified_fields": {},
+        "failure_reason": null
+      },
+      "reminders": []
+    }
+  ],
+  "scheduled_jobs": [],
+  "runs": [],
+  "delivery_checks": []
+}
