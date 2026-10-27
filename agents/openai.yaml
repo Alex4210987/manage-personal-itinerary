@@ -1,0 +1,13 @@
+interface:
+  display_name: 个人行程管理器
+  short_description: 用 Agent 开启全自动上学上班模式，让 GPT 的 dot 盯任务、排行程、提醒会议
+  default_prompt: 使用 $manage-personal-itinerary，让 dot 自动管理我的学习与工作安排：收集任务、整理行程、同步日历，及时通知新增和改期，并提供早晚简报与截止提醒。先确认必要来源和权限，再按约定自动跟进。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
